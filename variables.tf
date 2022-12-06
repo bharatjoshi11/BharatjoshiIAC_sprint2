@@ -8,6 +8,11 @@ variable "acl_value" {
 
 }
 
+variable "aminame" {
+  type = string
+  default = "ami-08bd8e5c51334492e"
+}
+
 
 variable "bucketname" {
   type = list(string)

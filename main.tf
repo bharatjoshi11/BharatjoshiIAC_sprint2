@@ -1,7 +1,7 @@
 resource "aws_instance" "Firstinstance" {
   for_each = var.instances
 
-  ami = "ami-08bd8e5c51334492e"
+  ami =  var.aminame
   instance_type = "t2.micro"
 
   tags = {
